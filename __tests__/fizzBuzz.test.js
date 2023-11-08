@@ -8,4 +8,9 @@ describe('fizzBuzz', () => {
     expect(fizzBuzz(1)).toEqual(1);
     expect(fizzBuzz(17)).toEqual(17);
   });
+  it ('should return "Fizz" if divisible by 3', () => {
+    expect(fizzBuzz(3)).toEqual('Fizz');
+    expect(fizzBuzz(6)).toEqual('Fizz');
+    expect(fizzBuzz(12)).toEqual('Fizz');
+  });
 });
